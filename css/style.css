@@ -1,0 +1,129 @@
+:root {
+  --highlight-color: #2196f3;
+  --body-color: #212121;
+  --logo-color: #ffffff;
+  --main-background-color: #2f303a;
+  --p-main-color: #757575;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: var(--body-color);
+}
+
+.logo-main {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  padding-right: 93;
+}
+
+.logo-primary {
+  color: var(--highlight-color);
+}
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+.h2-main {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+.h3-main {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.p-main {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--p-main-color);
+}
+.a-main {
+  text-decoration: none;
+}
+.ul-main {
+  list-style-type: none;
+}
+
+.logo-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
+.logo-primary {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--highlight-color);
+}
+
+.logo-secondary-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--logo-color);
+}
+.links {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.links:active {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--highlight-color);
+}
+.links:focus {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--highlight-color);
+}
+.links:hover {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--highlight-color);
+}
+.address.main {
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: var(--logo-color);
+}
+.footer-main {
+  background-color: var(--main-background-color);
+  color: var(--logo-color);
+}
+.button-main {
+  cursor: pointer;
+}
