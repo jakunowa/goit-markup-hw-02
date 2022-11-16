@@ -55,6 +55,7 @@ body {
 }
 .ul-main {
   list-style-type: none;
+  font-weight: 500;
 }
 
 .logo-footer {
@@ -126,4 +127,9 @@ body {
 }
 .button-main {
   cursor: pointer;
+  font-weight: 700;
+}
+.button-portfolio {
+  cursor: pointer;
+  font-weight: 500;
 }
