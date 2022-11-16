@@ -4,6 +4,7 @@
   --logo-color: #ffffff;
   --main-background-color: #2f303a;
   --p-main-color: #757575;
+  --links-footer-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -24,6 +25,7 @@ body {
   left: 215px;
   top: 24px;
   padding-right: 93;
+  color: inherit;
 }
 
 .logo-primary {
@@ -105,17 +107,38 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: inherit;
 }
-.address.main {
+.links:focus {
+  color: var(--highlight-color);
+}
+.active {
+  color: var(--highlight-color);
+}
+.links:hover {
+  color: var(--highlight-color);
+}
+.links-footer:focus {
+  color: var(--highlight-color);
+}
+.links-footer:hover {
+  color: var(--highlight-color);
+}
+.button-portfolio:hover {
+  background-color: var(--highlight-color);
+  color: var(--logo-color);
+}
+.button-portfolio:focus {
+  background-color: var(--highlight-color);
+  color: var(--logo-color);
+}
+.links-footer {
+  color: var(--links-footer-color);
+}
+.address > ul > li > p {
+  color: var(--logo-color);
   font-size: 14px;
   line-height: 1.71;
-
-  letter-spacing: 0.03em;
-
-  color: var(--logo-color);
-}
-.address > ul > li > p.main {
-  color: var(--logo-color);
 }
 .footer-main {
   background-color: var(--main-background-color);
