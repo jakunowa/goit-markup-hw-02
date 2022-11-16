@@ -40,14 +40,29 @@ body {
   font-size: 36px;
   line-height: 1.16;
 }
+.h3-secondary {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
 .h3-main {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
+.h3-portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
 .p-main {
   font-size: 14px;
   line-height: 1.71;
+  color: var(--p-main-color);
+}
+.p-description {
+  font-size: 16px;
+  line-height: 1.88;
   color: var(--p-main-color);
 }
 .a-main {
@@ -55,7 +70,6 @@ body {
 }
 .ul-main {
   list-style-type: none;
-  font-weight: 500;
 }
 
 .logo-footer {
@@ -92,27 +106,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.links:active {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--highlight-color);
-}
-.links:focus {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--highlight-color);
-}
-.links:hover {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--highlight-color);
-}
 .address.main {
   font-size: 14px;
   line-height: 1.71;
@@ -121,15 +114,28 @@ body {
 
   color: var(--logo-color);
 }
+.address > ul > li > p.main {
+  color: var(--logo-color);
+}
 .footer-main {
   background-color: var(--main-background-color);
   color: var(--logo-color);
 }
 .button-main {
   cursor: pointer;
+  font-family: inherit;
   font-weight: 700;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  color: var(--logo-color);
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 .button-portfolio {
   cursor: pointer;
+  font-family: inherit;
   font-weight: 500;
 }
